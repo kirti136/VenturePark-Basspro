@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8609a682e1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../Styles/header.css">
+    <link rel="stylesheet" href="../Styles//loginSignup.css">
+
+    <title>Login and Signup</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Nav 1 : Logo and Search Bar and Login and Cart-->
+    <div id="nav1">
+        <!-- 1 Logo -->
+        <div>
+            <img src="../Images/logo.png" alt="">
+        </div>
+        <!-- 2 Search -->
+        <div>
+            <form id="searchBox">
+                <input type="text" placeholder="Find a mate for your new adventure..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <!-- 3 Profile and Cart -->
+        <div>
+            <div>
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a><span>4</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav 2 : Drop Down Menu -->
+
+    
+    <!-- Login SignUp -->
+    <div class="parent">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn1"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Sign Up </button>
+            </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook" style="color: #005eff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #00aaff;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #1a3666;"></i>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter Email" id="name" required>
+                <input type="text" class="input-field" placeholder="Enter Password" id="password" required>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter your Name" id="name" required>
+                <input type="email" class="input-field" placeholder="Enter your Email" id="name" required>
+                <input type="text" class="input-field" placeholder="Enter Password" id="password" required>
+
+                <button type="submit" class="submit-btn" style="text-decoration: none;">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="https://kit.fontawesome.com/8609a682e1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../Styles/header.css">
+    <style>
+        #banner1 {
+            width: 98%;
+            margin: auto;
+        }
+
+        #banner1>img {
+            width: 100%;
+        }
+
+        .dropdown {
+            width: 90%;
+            margin: auto;
+            position: relative;
+            z-index: 999;
+        }
+
+        .dropdown ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            gap: 0px;
+            /* border: 1px solid black;  */
+        }
+
+        .dropdown ul li {
+            position: relative;
+        }
+
+        .dropdown ul li a {
+            color: #0c0202;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            font-size: 14px;
+            font-weight: 530;
+        }
+
+        .dropdown ul li>a:hover {
+            background-color: #f2f2f2;
+            border-bottom: 2.5px solid rgb(255, 119, 0);
+            color: rgb(255, 119, 0);
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            width: max-content;
+            z-index: 1;
+            padding: 30px;
+            border: 1px solid black;
+        }
+
+        .dropdown ul li:hover .dropdown-content {
+            display: block;
+        }
+
+        .row {
+            display: flex;
+            width: 100%;
+        }
+
+        .col {
+            flex: 1;
+        }
+
+        .dropdown-content>div>div a {
+            display: block;
+            padding: 0px 8px;
+            font-weight: 400;
+            font-size: 14px;
+            color: rgb(3, 0, 0);
+            text-decoration: none;
+        }
+
+        .col>div {
+            margin-top: 25px;
+            margin-right: 7px;
+            margin-left: 7px;
+        }
+
+        .col>div:first-child {
+            margin-top: 0px;
+        }
+
+        .col a:hover {
+            color: #ff8a00;
+        }
+
+        .dropdown {
+            white-space: nowrap;
+        }
+
+
+     
+        
+ 
+    </style>
+
+</head>
+
+<body>
+    <!-- Top Part -->
+    <div id="top">
+        <a href="#">
+            <p>SPRING FISHING CLASSIC &nbsp;|&nbsp; Shop Now <i class="fa-solid fa-angle-right"></i></p>
+        </a>
+    </div>
+
+    <!-- Main Navbar -->
+    <div id="mainNavbar">
+        <!-- Header -->
+        <header>
+            <!-- 1 -->
+            <div>
+                <div>
+                    <a href="#">
+                        <p><i class="fa-solid fa-location-dot"></i> My Store: <span>Find A Store</span></p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <p><span>FREE</span> Shipping on Orders $50+</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div>
+                <a href="#">Boats</a>
+                <a href="#">Off Road</a>
+                <a href="#">Resort & Restaurants</a>
+                <a href="#">Outdoor Tips</a>
+                <a href="#">CLUB</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">Help</a>
+                <span>🍁</span>
+                <a href="#">Canada</a>
+            </div>
+        </header>
+
+        <!-- Nav 1 : Logo and Search Bar and Login and Cart -->
+        <div id="nav1">
+            <!-- 1 Logo -->
+            <div>
+                <a href="../HTML/home.html"><img src="../Images/logo.png" alt=""></a>
+            </div>
+            <!-- 2 Search -->
+            <div>
+                <form id="searchBox">
+                    <input type="text" placeholder="Find a mate for your new adventure..">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <!-- 3 Profile and Cart -->
+            <div>
+                <div>
+                    <a href="#">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a><span>4</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav 2 : Drop Down Menu -->
+ 
+
+    </div>
+
+
+    <!-- banner -->
+    <div id="banner1">
+        <img src="https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png"
+            alt="error">
+    </div>
+    <!-- banner -->
+    <div id="banner1">
+        <img src="https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png"
+            alt="error">
+    </div>
+    <!-- banner -->
+    <div id="banner1">
+        <img src="https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png"
+            alt="error">
+    </div>
+</body>
+
+</html>

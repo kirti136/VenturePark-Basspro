@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* TOP */
+#top {
+  background-color: #0b2846;
+  height: 40px;
+  text-align: center;
+}
+
+#top a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding-top: 9px;
+}
+
+/* main navbar */
+#mainNavbar {
+  position: sticky;
+  background-color: #d4d0d0;
+  top: 0;
+}
+
+/* HEADER */
+
+header {
+  position: relative;
+  height: 35px;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header > div:nth-child(1) {
+  width: 35%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+header > div:nth-child(1) > div:nth-child(1) {
+  width: 40%;
+}
+
+header > div:nth-child(1) > div:nth-child(1) p > span {
+  color: #0461c4;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header > div:nth-child(1) > div:nth-child(2) p > span {
+  color: rgb(224, 7, 7);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header > div:nth-child(2) {
+  width: 45%;
+  text-align: right;
+  margin: auto;
+}
+
+header > div:nth-child(2) a {
+  padding: 0px 5px;
+}
+
+header > div:nth-child(2) a:hover {
+  text-decoration: underline;
+}
+
+header > div:nth-child(1) > div:nth-child(1) a {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+/* NAVBAR 01 */
+#nav1 {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0b2846;
+}
+
+#nav1 > div {
+  margin: 0% 5%;
+}
+
+#nav1 > div:nth-child(1) {
+  width: 15%;
+}
+
+#nav1 > div:nth-child(1) img {
+  width: 100%;
+}
+
+#nav1 > div:nth-child(2) {
+  width: 45%;
+}
+
+#searchBox > input {
+  border-radius: 0px 10px 0px 10px;
+  padding-left: 15px;
+  height: 40px;
+  border: none;
+  width: 94%;
+  outline: none;
+}
+
+#searchBox > button {
+  border-radius: 0px 10px 10px 10px;
+  cursor: pointer;
+  height: 40px;
+  font-size: large;
+  border: none;
+  width: 5%;
+}
+
+#nav1 > div:nth-child(3) {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: right;
+  width: 10%;
+}
+
+#nav1 > div:nth-child(3) a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+#nav1 > div:nth-child(3) > div:nth-child(1) {
+  border: 1px solid white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border-width: 2px;
+  padding: 5px 0px;
+  width: 50%;
+}
+
+#nav1 > div:nth-child(3) > div:nth-child(2) {
+  font-size: x-large;
+}
+
+#nav1 > div:nth-child(3) > div:nth-child(2) span {
+  font-weight: bold;
+  background-color: rgb(129, 167, 201);
+  border-radius: 50%;
+  font-size: small;
+  position: absolute;
+  margin-left: 3px;
+  padding: 0px 5px;
+}
+
+/* NAVBAR 02 */
