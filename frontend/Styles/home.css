@@ -56,7 +56,6 @@
   display: grid;
   gap: 15px;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 100px;
 }
 
 #add3 > div:nth-child(1) {
@@ -83,4 +82,11 @@
 #add3 > div button {
   margin: 0% 0% 0% 5%;
   margin-top: 10px;
+}
+
+#txt h1{
+    text-align: center;
+    color: #213629;
+    margin: 15px 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
