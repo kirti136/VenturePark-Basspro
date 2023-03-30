@@ -1,0 +1,86 @@
+#addMain {
+  width: 90%;
+  margin: auto;
+}
+
+#add1 {
+  height: 500px;
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#add1 a button {
+  position: absolute;
+  top: 68%;
+  left: 16%;
+}
+
+#add2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #922213;
+  height: 100px;
+  margin: 20px 0px;
+}
+
+#add2 h1 {
+  color: #dca743;
+  padding: 0px 60px;
+}
+
+#add2 h1 span {
+  color: white;
+}
+
+#add2 a button,
+#add1 a button,
+#add3 a button {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#add2 a button:hover,
+#add1 a button:hover,
+#add3 a button:hover {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+#add3 {
+  height: fit-content;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 100px;
+}
+
+#add3 > div:nth-child(1) {
+  height: 500px;
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_945/v1680019736/DigitalCreative/2023/Campaigns/Wk13-3-30/Homepage/BPS/BPS_Sub-spring-clothing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#add3 > div:nth-child(2) {
+  height: 500px;
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_945/v1680019736/DigitalCreative/2023/Campaigns/Wk13-3-30/Homepage/BPS/BPS_Sub-fishing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#add3 > div h1 {
+  margin: 45% 0% 0% 5%;
+  color: white;
+}
+#add3 > div h3 {
+  margin: 0% 0% 0% 5%;
+  color: white;
+}
+#add3 > div button {
+  margin: 0% 0% 0% 5%;
+  margin-top: 10px;
+}

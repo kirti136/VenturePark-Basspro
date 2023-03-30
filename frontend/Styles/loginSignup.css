@@ -1,25 +1,22 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .parent {
-  height: 100%;
-  width: 100%;
-  background-position: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png");
   background-size: cover;
-  position: absolute;
 }
 
 .form-box {
-  width: 380px;
+  width: 400px;
   height: 480px;
   position: relative;
-  margin-left: 60%;
-  margin-top: 5%;
   background-color: #0b1825;
-  border: 2px solid red;
   padding: 5px;
   overflow: hidden;
 }
@@ -28,7 +25,7 @@
   width: 220px;
   margin: 35px auto;
   position: relative;
-  box-shadow: 0 0 20px 9px #0850a311;
+  box-shadow: 0 0 30px 9px #868efa11;
   border-radius: 30px;
 }
 
@@ -48,7 +45,7 @@
   position: absolute;
   width: 110px;
   height: 100%;
-  background-color: #1a3666;
+  background-color: #ce8c0a;
   border-radius: 30px;
   transition: 0.5s;
 }
@@ -60,6 +57,21 @@
 
 .social-icons i {
   margin: 0px 15px;
+  cursor: pointer;
+}
+
+.fa-facebook {
+  color: #005eff;
+}
+.fa-twitter {
+  color: #00aaff;
+}
+
+.fa-linkedin {
+  color: #053992;
+}
+.social-icons i:hover {
+  color: rgb(216, 223, 230);
 }
 
 .input-group {
@@ -67,6 +79,18 @@
   position: absolute;
   width: 280px;
   transition: 0.5s;
+}
+
+.input-group p {
+  color: rgb(160, 159, 159);
+  padding-top: 30px;
+  text-align: center;
+  font-size: small;
+}
+
+.input-group p a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 .input-field {
@@ -82,12 +106,14 @@
 }
 
 .submit-btn {
-  width: 85%;
+  width: 65%;
   padding: 10px 30px;
   cursor: pointer;
   display: block;
   margin: auto;
-  background-color: #1a3666;
+  margin-top: 13%;
+  background-color: #ce8c0a;
+  color: white;
   border: 0;
   outline: none;
   border-radius: 30px;
@@ -99,4 +125,18 @@
 
 #register {
   left: 450px;
+}
+
+
+/* Footer Line */
+footer{
+  font-size: small;
+  text-align: center;
+  margin-top: 1%;
+}
+
+footer a{
+  text-decoration: none;
+  color: #1056ce;
+  font-weight: bold;
 }

@@ -9,106 +9,9 @@
     <script src="https://kit.fontawesome.com/8609a682e1.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="../Styles/header.css">
+    <link rel="stylesheet" href="../Styles//home.css">
     <style>
-        #banner1 {
-            width: 98%;
-            margin: auto;
-        }
-
-        #banner1>img {
-            width: 100%;
-        }
-
-        .dropdown {
-            width: 90%;
-            margin: auto;
-            position: relative;
-            z-index: 999;
-        }
-
-        .dropdown ul {
-            list-style: none;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            gap: 0px;
-            /* border: 1px solid black;  */
-        }
-
-        .dropdown ul li {
-            position: relative;
-        }
-
-        .dropdown ul li a {
-            color: #0c0202;
-            text-decoration: none;
-            padding: 15px 20px;
-            display: block;
-            font-size: 14px;
-            font-weight: 530;
-        }
-
-        .dropdown ul li>a:hover {
-            background-color: #f2f2f2;
-            border-bottom: 2.5px solid rgb(255, 119, 0);
-            color: rgb(255, 119, 0);
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: white;
-            width: max-content;
-            z-index: 1;
-            padding: 30px;
-            border: 1px solid black;
-        }
-
-        .dropdown ul li:hover .dropdown-content {
-            display: block;
-        }
-
-        .row {
-            display: flex;
-            width: 100%;
-        }
-
-        .col {
-            flex: 1;
-        }
-
-        .dropdown-content>div>div a {
-            display: block;
-            padding: 0px 8px;
-            font-weight: 400;
-            font-size: 14px;
-            color: rgb(3, 0, 0);
-            text-decoration: none;
-        }
-
-        .col>div {
-            margin-top: 25px;
-            margin-right: 7px;
-            margin-left: 7px;
-        }
-
-        .col>div:first-child {
-            margin-top: 0px;
-        }
-
-        .col a:hover {
-            color: #ff8a00;
-        }
-
-        .dropdown {
-            white-space: nowrap;
-        }
-
-
-     
         
- 
     </style>
 
 </head>
@@ -169,7 +72,7 @@
             <!-- 3 Profile and Cart -->
             <div>
                 <div>
-                    <a href="#">
+                    <a href="../HTML/loginSignup.html">
                         <i class="fa-solid fa-user"></i>
                     </a>
                 </div>
@@ -180,27 +83,596 @@
                 </div>
             </div>
         </div>
+        <hr>
 
         <!-- Nav 2 : Drop Down Menu -->
- 
+        <div class="nav2">
+            <nav class="menu">
+                <ul class="menu-main">
+                    <!-- FISHING -->
+                    <li class="menu-item-has-children">
+                        <a href="#">FISHING</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4">
+                            <div class="list-item">
+                                <h4 class="title">FISHING REELS</h4>
+                                <ul>
+                                    <li><a href="#">Baitcast Reels</a></li>
+                                    <li><a href="#">Spinning Reels</a></li>
+                                    <li><a href="#">Saltwater Reels</a></li>
+                                    <li><a href="#">Fly Reels</a></li>
+                                    <li><a href="#">Spincast Reels</a></li>
+                                    <li><a href="#">Line Counter Reels</a></li>
+                                    <li><a href="#">Power Assist Reels</a></li>
+                                </ul>
+                                <h4 class="title">FISHING RODS</h4>
+                                <ul>
+                                    <li><a href="#">Casting Rods</a></li>
+                                    <li><a href="#">Spinning Rods</a></li>
+                                    <li><a href="#">Saltwater Rods</a></li>
+                                    <li><a href="#">Combo Rods</a></li>
+                                </ul>
+                            </div>
 
+                            <div class="list-item">
+                                <h4 class="title">ROD & REEL COMBOS</h4>
+                                <ul>
+                                    <li><a href="#">Baitcast Combos</a></li>
+                                    <li><a href="#">Spinning Combos</a></li>
+                                    <li><a href="#">Saltwater Combos</a></li>
+                                    <li><a href="#">Kid's Rod Combos</a></li>
+                                </ul>
+                                <h4 class="title">LURES</h4>
+                                <ul>
+                                    <li><a href="#">Hard Bait Lures</a></li>
+                                    <li><a href="#">Soft Bait Lures</a></li>
+                                    <li><a href="#">Spinner Baits</a></li>
+                                    <li><a href="#">Buzzbaits</a></li>
+                                    <li><a href="#">Jigs</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-item">
+                                <h4 class="title">FISHING ACCESSORIES</h4>
+                                <ul>
+                                    <li><a href="#">Tools & Pilers</a></li>
+                                    <li><a href="#">Fillet Knives</a></li>
+                                    <li><a href="#">Fillet Tables</a></li>
+                                    <li><a href="#">Rod Holders & Racks</a></li>
+                                    <li><a href="#">Fishing Line</a></li>
+                                    <li><a href="#">Fish Hooks</a></li>
+                                    <li><a href="#">Tackle Boxes</a></li>
+                                    <li><a href="#">Tackle Bags</a></li>
+                                    <li><a href="#">Utility Box</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- BOATING -->
+                    <li class="menu-item-has-children">
+                        <a href="#">BOATING</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4">
+                            <div class="list-item">
+                                <h4 class="title">MARINE ELECTRONICS</h4>
+
+                                <ul>
+                                    <li><a href="#">Fish Finders & Chartplotters</a></li>
+                                    <li><a href="#">Sonar Accessories</a></li>
+                                    <li><a href="#">Marine Radios & Stereos</a></li>
+                                    <li><a href="#">Marine Mounts & Cases</a></li>
+                                    <li><a href="#">Handheld GPS</a></li>
+                                    <li><a href="#">PLB</a></li>
+                                    <li><a href="#">Cameras</a></li>
+                                </ul>
+
+                                <h4 class="title">OUTBOARD MOTOR ACCESSORIES</h4>
+
+                                <ul>
+                                    <li><a href="#">Props & Accessories</a></li>
+                                    <li><a href="#">Oils & Accessories</a></li>
+                                    <li><a href="#">Fuel Tanks & Accessories</a></li>
+                                    <li><a href="#">Gauges & Controls</a></li>
+                                    <li><a href="#">Boat Stabilizers</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">TRAILER ACCESSORIES</h4>
+
+                                <ul>
+                                    <li><a href="#">Trailer Hitches & Accessories</a></li>
+                                    <li><a href="#">Winches & Tie-Downs</a></li>
+                                    <li><a href="#">Trailer Wiring & Lights</a></li>
+                                    <li><a href="#">Tires & Accessories</a></li>
+                                </ul>
+                                <h4 class="title">TROLLING MOTORS</h4>
+
+                                <ul>
+                                    <li><a href="#">Trolling Motor Accessories</a></li>
+                                    <li><a href="#">Freshwater Trolling Motor</a></li>
+                                    <li><a href="#">Saltwater Trolling Motor</a></li>
+                                </ul>
+
+                                <h4 class="title">Fragrances</h4>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">BOAT ACCESSORIES</h4>
+
+                                <ul>
+                                    <li><a href="#">Rod Holders & Fishing Accessories</a></li>
+                                    <li><a href="#">Cleaning Supplies & Organization</a></li>
+                                    <li><a href="#">Anchoring, Rope & Docking</a></li>
+                                    <li><a href="#">Marine Hardware</a></li>
+                                    <li><a href="#">Boat Lights & Navigation</a></li>
+                                    <li><a href="#">Chargers & Portable Power</a></li>
+                                    <li><a href="#">Bilge & Aerator Pumps</a></li>
+                                    <li><a href="#">Boat Carpet & Flooring</a></li>
+
+                                </ul>
+                                <h4 class="title">POND PROWLERS & PEDAL BOATS</h4>
+                                <h4 class="title">KAYAKS & CANOES</h4>
+                                <h4 class="title">WATER SPORTS</h4>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">BOAT SEATS & FURNITURE</h4>
+
+                                <ul>
+                                    <li><a href="#">Seat Mounts & Pedestals</a></li>
+                                    <li><a href="#">Boat Seats</a></li>
+                                    <li><a href="#">Pontoon Furniture</a></li>
+                                    <li><a href="#">Grills, Tables & Umbrellas</a></li>
+                                    <li><a href="#">Saltwater Seating</a></li>
+                                    <li><a href="#">Storage/Dry Boxes</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">KAYAKS & CANOES</h4>
+
+                                <ul>
+                                    <li><a href="#">Kayak & Canoe Accessories</a></li>
+                                    <li><a href="#">Kayaks & Fishing Kayaks</a></li>
+                                    <li><a href="#">Paddles & Oars</a></li>
+                                    <li><a href="#">Campus Sutra</a></li>
+                                    <li><a href="#">Ruggers</a></li>
+                                    <li><a href="#">Stand-Up Paddle Boards</a></li>
+                                    <li><a href="#">Hang Up</a></li>
+                                    <li><a href="#">Canoes</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- SHOOTING -->
+                    <li class="menu-item-has-children">
+                        <a href="#">SHOOTING</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4">
+                            <div class="list-item">
+                                <h4 class="title">GUNS</h4>
+                                <ul>
+                                    <li><a href="#">Center Fire Pistol</a></li>
+                                    <li><a href="#">Center Fire Rifles</a></li>
+                                    <li><a href="#">Rim Fire Rifles</a></li>
+                                    <li><a href="#">Fly Reels</a></li>
+                                    <li><a href="#">Shot Guns</a></li>
+                                    <li><a href="#">MK 364</a></li>
+                                    <li><a href="#">Rk 92 Led</a></li>
+                                </ul>
+                                <h4 class="title">AMMUNATIONS</h4>
+                                <ul>
+                                    <li><a href="#">Handgun Ammo</a></li>
+                                    <li><a href="#">Centerfire Ammo</a></li>
+                                    <li><a href="#">Rimfire Ammo</a></li>
+                                    <li><a href="#">Shotcell Ammo</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">OPTICS & SCOPES</h4>
+                                <ul>
+                                    <li><a href="#">Binocular</a></li>
+                                    <li><a href="#">Scopes</a></li>
+                                    <li><a href="#">Range Finders</a></li>
+                                    <li><a href="#">Spotting Scopes</a></li>
+                                </ul>
+                                <h4 class="title">GUN STORAGE</h4>
+                                <ul>
+                                    <li><a href="#">Hard Bait</a></li>
+                                    <li><a href="#">Soft Bait </a></li>
+                                    <li><a href="#">Spinner Baits</a></li>
+                                    <li><a href="#">Buzzbaits</a></li>
+                                    <li><a href="#">Jigs</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-item">
+                                <h4 class="title">SHOOTING ACCESSORIES</h4>
+                                <ul>
+                                    <li><a href="#">Tools & Pilers</a></li>
+                                    <li><a href="#">Fillet Knives</a></li>
+                                    <li><a href="#">Fillet Tables</a></li>
+                                    <li><a href="#">Rod Holders & Racks</a></li>
+                                    <li><a href="#">Fishing Line</a></li>
+                                    <li><a href="#">Fish Hooks</a></li>
+                                    <li><a href="#">Tackle Boxes</a></li>
+                                    <li><a href="#">Tackle Bags</a></li>
+                                    <li><a href="#">Utility Box</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- HUNTING -->
+                    <li class="menu-item-has-children">
+                        <a href="#">HUNTING</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4">
+                            <div class="list-item">
+                                <h4 class="title">ARCHERY</h4>
+                                <ul>
+                                    <li><a href="#">Center Fire Pistol</a></li>
+                                    <li><a href="#">Center Fire Rifles</a></li>
+                                    <li><a href="#">Rim Fire Rifles</a></li>
+                                    <li><a href="#">Fly Reels</a></li>
+                                    <li><a href="#">Shot Guns</a></li>
+                                    <li><a href="#">MK 364</a></li>
+                                    <li><a href="#">Rk 92 Led</a></li>
+                                </ul>
+                                <h4 class="title">OPTICS & SCOPES</h4>
+                                <ul>
+                                    <li><a href="#">Handgun Ammo</a></li>
+                                    <li><a href="#">Centerfire Ammo</a></li>
+                                    <li><a href="#">Rimfire Ammo</a></li>
+                                    <li><a href="#">Shotcell Ammo</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">HUNTING ACCESSORIES</h4>
+                                <ul>
+                                    <li><a href="#">Binocular</a></li>
+                                    <li><a href="#">Scopes</a></li>
+                                    <li><a href="#">Range Finders</a></li>
+                                    <li><a href="#">Spotting Scopes</a></li>
+                                </ul>
+                                <h4 class="title">FOOD PLOTS & FEEDING</h4>
+                                <ul>
+                                    <li><a href="#">Hard Bait</a></li>
+                                    <li><a href="#">Soft Bait </a></li>
+                                    <li><a href="#">Spinner Baits</a></li>
+                                    <li><a href="#">Buzzbaits</a></li>
+                                    <li><a href="#">Jigs</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-item">
+                                <h4 class="title">GAME & TRAIL CAME</h4>
+                                <ul>
+                                    <li><a href="#">Tools & Pilers</a></li>
+                                    <li><a href="#">Fillet Knives</a></li>
+                                    <li><a href="#">Fillet Tables</a></li>
+                                    <li><a href="#">Rod Holders & Racks</a></li>
+                                    <li><a href="#">Fishing Line</a></li>
+                                    <li><a href="#">Fish Hooks</a></li>
+                                    <li><a href="#">Tackle Boxes</a></li>
+                                    <li><a href="#">Tackle Bags</a></li>
+                                    <li><a href="#">Utility Box</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- CAMPING -->
+                    <li class="menu-item-has-children">
+                        <a href="#">CAMPING</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4">
+                            <div class="list-item">
+                                <h4 class="title">TENTS</h4>
+                                <ul>
+                                    <li><a href="#">Center Fire Pistol</a></li>
+                                    <li><a href="#">Center Fire Rifles</a></li>
+                                    <li><a href="#">Rim Fire Rifles</a></li>
+                                    <li><a href="#">Fly Reels</a></li>
+                                    <li><a href="#">Shot Guns</a></li>
+                                    <li><a href="#">MK 364</a></li>
+                                    <li><a href="#">Rk 92 Led</a></li>
+                                </ul>
+                                <h4 class="title">CAMP ESSENTIALS</h4>
+                                <ul>
+                                    <li><a href="#">Handgun Ammo</a></li>
+                                    <li><a href="#">Centerfire Ammo</a></li>
+                                    <li><a href="#">Rimfire Ammo</a></li>
+                                    <li><a href="#">Shotcell Ammo</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">CAMP KITCHEN</h4>
+                                <ul>
+                                    <li><a href="#">Binocular</a></li>
+                                    <li><a href="#">Scopes</a></li>
+                                    <li><a href="#">Range Finders</a></li>
+                                    <li><a href="#">Spotting Scopes</a></li>
+                                </ul>
+                                <h4 class="title">SLEEPING GEAR</h4>
+                                <ul>
+                                    <li><a href="#">Hard Bait</a></li>
+                                    <li><a href="#">Soft Bait </a></li>
+                                    <li><a href="#">Spinner Baits</a></li>
+                                    <li><a href="#">Buzzbaits</a></li>
+                                    <li><a href="#">Jigs</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-item">
+                                <h4 class="title">PACKS & BAGS</h4>
+                                <ul>
+                                    <li><a href="#">Tools & Pilers</a></li>
+                                    <li><a href="#">Fillet Knives</a></li>
+                                    <li><a href="#">Fillet Tables</a></li>
+                                    <li><a href="#">Rod Holders & Racks</a></li>
+                                    <li><a href="#">Fishing Line</a></li>
+                                    <li><a href="#">Fish Hooks</a></li>
+                                    <li><a href="#">Tackle Boxes</a></li>
+                                    <li><a href="#">Tackle Bags</a></li>
+                                    <li><a href="#">Utility Box</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- CLOTHING -->
+                    <li class="menu-item-has-children">
+                        <a href="#">CLOTHING</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4">
+                            <div class="list-item">
+                                <h4 class="title">MEN'S CLOTHING</h4>
+                                <ul>
+                                    <li><a href="#">Center Fire Pistol</a></li>
+                                    <li><a href="#">Center Fire Rifles</a></li>
+                                    <li><a href="#">Rim Fire Rifles</a></li>
+                                    <li><a href="#">Fly Reels</a></li>
+                                    <li><a href="#">Shot Guns</a></li>
+                                    <li><a href="#">MK 364</a></li>
+                                    <li><a href="#">Rk 92 Led</a></li>
+                                </ul>
+                                <h4 class="title">WALLETS</h4>
+                                <ul>
+                                    <li><a href="#">Handgun Ammo</a></li>
+                                    <li><a href="#">Centerfire Ammo</a></li>
+                                    <li><a href="#">Rimfire Ammo</a></li>
+                                    <li><a href="#">Shotcell Ammo</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">WOMEN'S CLOTHING</h4>
+                                <ul>
+                                    <li><a href="#">Binocular</a></li>
+                                    <li><a href="#">Scopes</a></li>
+                                    <li><a href="#">Range Finders</a></li>
+                                    <li><a href="#">Spotting Scopes</a></li>
+                                </ul>
+                                <h4 class="title">SUNGLASSES</h4>
+                                <ul>
+                                    <li><a href="#">Hard Bait</a></li>
+                                    <li><a href="#">Soft Bait </a></li>
+                                    <li><a href="#">Spinner Baits</a></li>
+                                    <li><a href="#">Buzzbaits</a></li>
+                                    <li><a href="#">Jigs</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-item">
+                                <h4 class="title">HUNTING CLOTHING</h4>
+                                <ul>
+                                    <li><a href="#">Tools & Pilers</a></li>
+                                    <li><a href="#">Fillet Knives</a></li>
+                                    <li><a href="#">Fillet Tables</a></li>
+                                    <li><a href="#">Rod Holders & Racks</a></li>
+                                    <li><a href="#">Fishing Line</a></li>
+                                    <li><a href="#">Fish Hooks</a></li>
+                                    <li><a href="#">Tackle Boxes</a></li>
+                                    <li><a href="#">Tackle Bags</a></li>
+                                    <li><a href="#">Utility Box</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- FOOTWEAR -->
+                    <li class="menu-item-has-children">
+                        <a href="#">FOOTWEAR</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4">
+                            <div class="list-item">
+                                <h4 class="title">MEN'S SHOES & BOOTS</h4>
+                                <ul>
+                                    <li><a href="#">Center Fire Pistol</a></li>
+                                    <li><a href="#">Center Fire Rifles</a></li>
+                                    <li><a href="#">Rim Fire Rifles</a></li>
+                                    <li><a href="#">Fly Reels</a></li>
+                                    <li><a href="#">Shot Guns</a></li>
+                                    <li><a href="#">MK 364</a></li>
+                                    <li><a href="#">Rk 92 Led</a></li>
+                                </ul>
+                                <h4 class="title">CUSTOMER FAVOURITES</h4>
+                                <ul>
+                                    <li><a href="#">Handgun Ammo</a></li>
+                                    <li><a href="#">Centerfire Ammo</a></li>
+                                    <li><a href="#">Rimfire Ammo</a></li>
+                                    <li><a href="#">Shotcell Ammo</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">WOMEN'S SHOES</h4>
+                                <ul>
+                                    <li><a href="#">Binocular</a></li>
+                                    <li><a href="#">Scopes</a></li>
+                                    <li><a href="#">Range Finders</a></li>
+                                    <li><a href="#">Spotting Scopes</a></li>
+                                </ul>
+                                <h4 class="title">SHOE & BOOT ACCESSORIES</h4>
+                                <ul>
+                                    <li><a href="#">Hard Bait</a></li>
+                                    <li><a href="#">Soft Bait </a></li>
+                                    <li><a href="#">Spinner Baits</a></li>
+                                    <li><a href="#">Buzzbaits</a></li>
+                                    <li><a href="#">Jigs</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-item">
+                                <h4 class="title">WADERS ACCESSORIES</h4>
+                                <ul>
+                                    <li><a href="#">Tools & Pilers</a></li>
+                                    <li><a href="#">Fillet Knives</a></li>
+                                    <li><a href="#">Fillet Tables</a></li>
+                                    <li><a href="#">Rod Holders & Racks</a></li>
+                                    <li><a href="#">Fishing Line</a></li>
+                                    <li><a href="#">Fish Hooks</a></li>
+                                    <li><a href="#">Tackle Boxes</a></li>
+                                    <li><a href="#">Tackle Bags</a></li>
+                                    <li><a href="#">Utility Box</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- OUTDOOR REC -->
+                    <li class="menu-item-has-children">
+                        <a href="#">OUTDOOR REC</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4">
+                            <div class="list-item">
+                                <h4 class="title">TRUCK & AUTOS</h4>
+                                <ul>
+                                    <li><a href="#">Center Fire Pistol</a></li>
+                                    <li><a href="#">Center Fire Rifles</a></li>
+                                    <li><a href="#">Rim Fire Rifles</a></li>
+                                    <li><a href="#">Fly Reels</a></li>
+                                    <li><a href="#">Shot Guns</a></li>
+                                    <li><a href="#">MK 364</a></li>
+                                    <li><a href="#">Rk 92 Led</a></li>
+                                </ul>
+                                <h4 class="title">BIKES</h4>
+                                <ul>
+                                    <li><a href="#">Handgun Ammo</a></li>
+                                    <li><a href="#">Centerfire Ammo</a></li>
+                                    <li><a href="#">Rimfire Ammo</a></li>
+                                    <li><a href="#">Shotcell Ammo</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">OUTDOOR POWER EQUIPMENTS</h4>
+                                <ul>
+                                    <li><a href="#">Binocular</a></li>
+                                    <li><a href="#">Scopes</a></li>
+                                    <li><a href="#">Range Finders</a></li>
+                                    <li><a href="#">Spotting Scopes</a></li>
+                                </ul>
+                                <h4 class="title">WATER SPORTS</h4>
+                                <ul>
+                                    <li><a href="#">Hard Bait</a></li>
+                                    <li><a href="#">Soft Bait </a></li>
+                                    <li><a href="#">Spinner Baits</a></li>
+                                    <li><a href="#">Buzzbaits</a></li>
+                                    <li><a href="#">Jigs</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-item">
+                                <h4 class="title">TRAILER ACCESSORIES</h4>
+                                <ul>
+                                    <li><a href="#">Tools & Pilers</a></li>
+                                    <li><a href="#">Fillet Knives</a></li>
+                                    <li><a href="#">Fillet Tables</a></li>
+                                    <li><a href="#">Rod Holders & Racks</a></li>
+                                    <li><a href="#">Fishing Line</a></li>
+                                    <li><a href="#">Fish Hooks</a></li>
+                                    <li><a href="#">Tackle Boxes</a></li>
+                                    <li><a href="#">Tackle Bags</a></li>
+                                    <li><a href="#">Utility Box</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- HOME & GIFTS -->
+                    <li class="menu-item-has-children">
+                        <a href="#">HOME & GIFTS</a>
+                        <div class="sub-menu mega-menu mega-menu-column-4">
+                            <div class="list-item">
+                                <h4 class="title">HOME DECOR</h4>
+                                <ul>
+                                    <li><a href="#">Bed Sheets Sets</a></li>
+                                    <li><a href="#">Quilts & Comforters</a></li>
+                                    <li><a href="#">Blankets</a></li>
+                                    <li><a href="#">Bed Covers</a></li>
+                                    <li><a href="#">Pillow Covers</a></li>
+                                    <li><a href="#">Curtains</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">OUTDOOR HOME DECORS</h4>
+                                <ul>
+                                    <li><a href="#">Fire Pits & Log Rats</a></li>
+                                    <li><a href="#">Lawn & Garden</a></li>
+                                    <li><a href="#">Wind Chimnes</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">NATURE</h4>
+
+                                <h4 class="title">FURNITURE</h4>
+
+                                <h4 class="title">FOOD & DRINKS</h4>
+                            </div>
+
+                            <div class="list-item">
+                                <h4 class="title">PATIO & OUTDOOR COOKING</h4>
+
+                                <ul>
+                                    <li><a href="#">Grills</a></li>
+                                    <li><a href="#">Smokers</a></li>
+                                    <li><a href="#">Fryers</a></li>
+                                    <li><a href="#">Grill Accessories</a></li>
+                                    <li><a href="#">Table Ware</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- BARGAIN CAVE -->
+                    <li class="menu-item-has-children">
+                        <a href="#">BARGAIN CAVE</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
     </div>
 
+    <!-- ADDS -->
+    <div id="addMain">
+        <!-- Add 01 -->
+        <div id="add1">
+            <img style="margin: 10% 5%;"
+                src="https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_479/v1679582428/DigitalCreative/2023/Campaigns/Wk13-3-30/Homepage/BPS/hero-logo.png"
+                alt="err">
+            <a href="#"><button>LEARN MORE</button></a>
+        </div>
 
-    <!-- banner -->
-    <div id="banner1">
-        <img src="https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png"
-            alt="error">
-    </div>
-    <!-- banner -->
-    <div id="banner1">
-        <img src="https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png"
-            alt="error">
-    </div>
-    <!-- banner -->
-    <div id="banner1">
-        <img src="https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png"
-            alt="error">
+        <!-- Add 02 -->
+        <div id="add2">
+            <h1><span>EXCLUSIVE</span> CLUB MEMBER SAVINGS</h1>
+            <a href="#"><button>LEARN MORE</button></a>
+        </div>
+
+
+        <!-- Add 03 2 in 1 -->
+        <div id="add3">
+            <div>
+                <h1>SPRING CLOTHING</h1>
+                <h3>SHIRTS, PANTS, JACKETS & MORE</h3>
+                <h3>UP TO 33% OFF</h3>
+                <a href="#"><button>SHOP NOW</button></a>
+            </div>
+            <div>
+                <h1>FISHING SEASON IS HERE</h1>
+                <h3>SHIRTS, PANTS, JACKETS & MORE</h3>
+                <h3>GET ALL THE GEAR YOU NEED</h3>
+                <a href="#"><button>SHOP NOW</button></a>
+            </div>
+        </div>
     </div>
 </body>
 
