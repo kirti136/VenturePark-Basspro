@@ -34,14 +34,27 @@ footer img {
   margin: auto;
 }
 
-footer > div:nth-child(2) {
+footer hr {
+  margin-top: 15px;
+}
+
+footer > div:nth-child(3) {
   display: flex;
   width: 90%;
   margin: auto;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
+footer > div:nth-child(3) > div:nth-child(3) {
+  width: 20%;
+}
 
+footer > div:nth-child(3) > div img {
+  width: 100%;
+}
+footer > div:nth-child(3) > div {
+  margin: 0px 0px 0px 20px;
+}
 .footer-icons {
   display: flex;
   align-items: center;
@@ -63,65 +76,25 @@ footer > div:nth-child(2) {
 }
 
 .facebook-icon {
-  background-color: rgb(27, 120, 241);
+  background-color: #1e1d19;
 }
 
 .youtube-icon {
-  background-color: rgb(241, 27, 27);
+  background-color: #1e1d19;
 }
 
 .twitter-icon {
-  background-color: rgb(87, 146, 224);
+  background-color: #1e1d19;
 }
 
 .instagram-icon {
-  background-color: rgb(241, 27, 173);
+  background-color: #1e1d19;
 }
 
 .linkedin-icon {
-  background-color: rgb(6, 73, 161);
+  background-color: #1e1d19;
 }
 
 .pinterest-icon {
-  background-color: rgb(241, 27, 27);
-}
-
-.facebook-icon:hover {
-  color: rgb(27, 120, 241);
-  background-color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-.youtube-icon:hover {
-  background-color: white;
-  text-decoration: none;
-  color: rgb(241, 27, 27);
-}
-
-.twitter-icon:hover {
-  background-color: white;
-  text-decoration: none;
-  color: rgb(87, 146, 224);
-}
-
-.instagram-icon:hover {
-  background-color: white;
-  text-decoration: none;
-  color: rgb(241, 27, 173);
-}
-
-.linkedin-icon:hover {
-  background-color: white;
-  text-decoration: none;
-  color: rgb(6, 73, 161);
-}
-
-.pinterest-icon:hover {
-  background-color: white;
-  text-decoration: none;
-  color: rgb(241, 27, 27);
-}
-
-.fab {
-  font-size: 20px;
+  background-color: #1e1d19;
 }
