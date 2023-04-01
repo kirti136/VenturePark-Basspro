@@ -5,18 +5,22 @@
 }
 
 .parent {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  margin-top: 3%;
-  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png");
-  background-size: cover;
+  margin-top: 4%;
+  display: flex;
+  background-color: #0f1709;
+}
+
+.parent>div:nth-child(2){
+  margin: 120px 0px 0px 40px;
 }
 
 .form-box {
   width: 400px;
   height: 480px;
   position: relative;
-  background-color: #0b1825;
+  background-color: #1a2411;
   padding: 5px;
   overflow: hidden;
 }
@@ -45,7 +49,7 @@
   position: absolute;
   width: 110px;
   height: 100%;
-  background-color: #ce8c0a;
+  background-color: #8f6208;
   border-radius: 30px;
   transition: 0.5s;
 }
@@ -112,7 +116,7 @@
   display: block;
   margin: auto;
   margin-top: 13%;
-  background-color: #ce8c0a;
+  background-color: #8f6208;
   color: white;
   border: 0;
   outline: none;
@@ -127,16 +131,15 @@
   left: 450px;
 }
 
-
 /* Footer Line */
-footer{
+footer {
   font-size: small;
   text-align: center;
   margin-top: 1%;
 }
 
-footer a{
+footer a {
   text-decoration: none;
-  color: #1056ce;
+  color: #1e420f;
   font-weight: bold;
 }

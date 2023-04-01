@@ -1,13 +1,14 @@
-#addMain {
+.addMain {
   width: 90%;
   margin: auto;
 }
 
 #add1 {
   height: 500px;
-  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1920/v1677857264/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/BPS_Homepage_SFC_v2.png");
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1440/v1680019249/DigitalCreative/2023/Campaigns/Wk13-3-30/Homepage/BPS/BPS_Homepage-Main.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 10px;
 }
 
 #add1 a button {
@@ -36,7 +37,9 @@
 
 #add2 a button,
 #add1 a button,
-#add3 a button {
+#add3 a button,
+#add4 a button,
+#txt2 a button {
   cursor: pointer;
   border: none;
   padding: 10px;
@@ -45,7 +48,9 @@
 
 #add2 a button:hover,
 #add1 a button:hover,
-#add3 a button:hover {
+#add3 a button:hover,
+#add4 a button:hover,
+#txt2 a button:hover {
   background: transparent;
   color: white;
   border: 2px solid white;
@@ -84,9 +89,202 @@
   margin-top: 10px;
 }
 
-#txt h1{
-    text-align: center;
-    color: #213629;
-    margin: 15px 0px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+#add4 {
+  height: 500px;
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_1440/v1680296573/DigitalCreative/2023/Campaigns/Wk13-3-30/Homepage/BPS/BPS_Homepage-wrmg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* text-align: lef; */
+  margin-top: 15px;
+}
+#add4 img {
+  margin-left: 55%;
+  margin-top: 2%;
+}
+#add4 a button {
+  margin-left: 72%;
+  margin-top: 1%;
+}
+
+/* text */
+.txt h1 {
+  text-align: center;
+  color: #213629;
+  margin: 25px 0px 0px 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* SLIDER 01 */
+
+.slider1 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.slider1 > div {
+  width: 100%;
+}
+
+.slider1 .swiper > div:nth-child(2) {
+  width: 95%;
+  margin: auto;
+}
+
+.slider1 .swiper-slide {
+  display: flex;
+}
+
+.slider1 .swiper-slide > div {
+  width: 21%;
+  margin: 20px 0px 0px 30px;
+}
+
+.slider1 .swiper-slide > div:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.slider1 .swiper-slide > div > img {
+  width: 90%;
+  margin-left: 15px;
+}
+
+.slider1 .swiper .swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-slide > div > div:nth-child(2) {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.swiper-slide > div > div:nth-child(2) > h4 {
+  color: #ba5208;
+}
+
+/*  ADDS 2.0 */
+
+#add {
+  height: fit-content;
+  display: flex;
+  margin: 50px 0px 0px 0px;
+}
+#add > div:nth-child(1) {
+  width: 50%;
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_930/v1678485795/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/tracker-left.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#add > div:nth-child(2) {
+  width: 50%;
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_930/v1678485795/DigitalCreative/2023/Campaigns/wk09-3-9/Homepage/tracker-right.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#add > div > img {
+  margin: 22% 0px 0px 2%;
+  width: 30%;
+}
+
+/* SHOP BY CATEGORY */
+
+#shopByCategory {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+#shopByCategory img {
+  width: 100%;
+}
+
+#shopByCategory > div {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+#shopByCategory > div > div {
+  width: 100%;
+}
+
+#shopByCategory h3{
+  margin: 10px 0px;
+  color: #213629;
+}
+
+
+/* ADD 3.0 */
+
+#adds3 {
+  height: fit-content;
+  display: flex;
+  margin: 40px 0px 0px 0px;
+}
+#adds3 > div:nth-child(1) {
+  width: 50%;
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_945/v1680019736/DigitalCreative/2023/Campaigns/Wk13-3-30/Homepage/BPS/BPS_Sub-BTS.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#adds3 > div:nth-child(2) {
+  width: 50%;
+  background-image: url("https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_945/v1680019735/DigitalCreative/2023/Campaigns/Wk13-3-30/Homepage/BPS/BPS_Sub-Easter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#adds3 > div:nth-child(1) > img {
+ width: 39%;
+  margin: 1% 0% 0% 55%;
+
+}
+#adds3 > div:nth-child(2) > img {
+  width: 80%;
+  margin: 1% 0% 0% 20%;
+}
+
+
+/* txt box */
+#txt2{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  background-color: #081f3f;
+  color: white;
+  padding: 20px 0% 15px 13% ;
+  text-align: center;
+}
+#txt2 span{
+  color: #dca743;
+  border-right: 2px solid white;
+  padding-right: 25px;
+  margin-right: 25px;
+}
+
+#txt2 div{
+  text-align: left;
+  margin-right: 8%;
+}
+
+/* top brands */
+#topBrands{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  gap: 40px;
+  margin-top: 10px;
+}
+#topBrands img{
+  width: 100%;
 }

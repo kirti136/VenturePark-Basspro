@@ -80,7 +80,8 @@ header > div:nth-child(1) > div:nth-child(1) a {
   margin: auto;
   align-items: center;
   justify-content: space-between;
-  background-color: #0b2846;
+  background-color: #ffffff;
+  border: 1px solid rgb(233, 226, 226);
 }
 
 #nav1 > div {
@@ -106,6 +107,8 @@ header > div:nth-child(1) > div:nth-child(1) a {
   border: none;
   width: 94%;
   outline: none;
+  color: #222121;
+  background-color: #e5e5e5;
 }
 
 #searchBox > button {
@@ -115,6 +118,7 @@ header > div:nth-child(1) > div:nth-child(1) a {
   font-size: large;
   border: none;
   width: 5%;
+  background-color: #e5e5e5;
 }
 
 #nav1 > div:nth-child(3) {
@@ -126,19 +130,19 @@ header > div:nth-child(1) > div:nth-child(1) a {
 
 #nav1 > div:nth-child(3) a {
   text-decoration: none;
-  color: white;
-  font-size: larger;
+  color: black;
+  font-size: x-large;
 }
 
 #nav1 > div:nth-child(3) > div:nth-child(1) {
-  border: 2px solid white;
+  border: 2px solid black;
   text-align: center;
   border-radius: 30%;
   padding: 5%;
 }
 
 #nav1 > div:nth-child(3) > div:nth-child(2) {
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 #nav1 > div:nth-child(3) > div:nth-child(2) span {
@@ -147,7 +151,6 @@ header > div:nth-child(1) > div:nth-child(1) a {
   border-radius: 50%;
   font-size: small;
   position: absolute;
-  margin-left: 3px;
   padding: 0px 5px;
 }
 
@@ -164,6 +167,7 @@ header > div:nth-child(1) > div:nth-child(1) a {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 25px;
   background-color: #fffdfd;
+  border-bottom: 2px solid #e5e5e5;
 }
 
 .nav2 .menu > ul > li {
