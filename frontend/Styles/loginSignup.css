@@ -13,14 +13,14 @@
 }
 
 .parent>div:nth-child(2){
-  margin: 120px 0px 0px 40px;
+  margin: 120px 0px 0px 50px;
 }
 
 .form-box {
-  width: 400px;
+  width: 380px;
   height: 480px;
   position: relative;
-  background-color: #1a2411;
+  background-color: #192515;
   padding: 5px;
   overflow: hidden;
 }
@@ -107,6 +107,7 @@
   border-bottom: 1px solid #999;
   outline: none;
   background: transparent;
+  color: antiquewhite;
 }
 
 .submit-btn {

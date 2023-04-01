@@ -24,11 +24,13 @@ userRouter.post("/register", async (req, res) => {
       if (hash) {
         const user = new UserModel({ name, email, password: hash });
         await user.save();
-        res.status(200).send({ msg: "Registration successful" });
+        res.status(200).send({ message: "Registration successful" });
+      } else {
+        res.status(400).send({ message: "Registration Failed", error: err });
       }
     });
   } catch (error) {
-    res.status(400).send({ msg: "Registration Failed", error: error.message });
+    res.status(400).send({ message: "Registration Failed", error: error.message });
   }
 });
 
@@ -43,18 +45,18 @@ userRouter.post("/login", async (req, res) => {
       bcrypt.compare(password, user.password, (err, result) => {
         if (result) {
           res.status(200).send({
-            msg: "Login successful",
+            message: "Login successful",
             token: jwt.sign({ userID: user._id }, "hello"),
           });
         } else {
-          res.status(400).send({ msg: "Wrong Password" });
+          res.status(400).send({ message: "Wrong Password" });
         }
       });
     } else {
-      res.status(400).send({ msg: "Email Not Found" });
+      res.status(400).send({ message: "Email Not Found" });
     }
   } catch (error) {
-    res.status(400).send({ msg: "Login Failed", error: error.message });
+    res.status(400).send({ message: "Login Failed", error: error.message });
   }
 });
 
@@ -65,9 +67,9 @@ userRouter.patch("/update/:userID", async (req, res) => {
 
   try {
     await UserModel.findByIdAndUpdate({ _id: userID }, payload);
-    res.status(200).send({ msg: "User Updated" });
+    res.status(200).send({ message: "User Updated" });
   } catch (error) {
-    res.status(400).send({ msg: error.message });
+    res.status(400).send({ message: error.message });
   }
 });
 
@@ -77,9 +79,9 @@ userRouter.delete("/delete/:userID", async (req, res) => {
 
   try {
     await UserModel.findByIdAndDelete({ _id: userID });
-    res.status(200).send({ msg: "User Deleted" });
+    res.status(200).send({ message: "User Deleted" });
   } catch (error) {
-    res.status(400).send({ msg: error.message });
+    res.status(400).send({ message: error.message });
   }
 });
 
