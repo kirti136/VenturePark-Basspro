@@ -1,212 +1,240 @@
 [
   {
-    "image": "https://www.jiomart.com/images/product/330x410/rvsocrshcu/popwings-single-button-closure-women-black-shrug-product-images-rvsocrshcu-0-202211040421.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/anthracite_101034974_main?_a=AJFJtWIA",
     "name": "Popwings Single Button Closure Women Black Shrug",
     "discountPrice": "200.00",
     "originalPrice": "210.00",
-    "id": "1"
+    "id": "1",
+    "color": "black"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/rvkmdovj7u/jatriqq-women-black-embroidered-net-lehenga-choli-sets-product-images-rvkmdovj7u-0-202207090102.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/foxglove_101034974_main?_a=AJFJtWIA",
     "name": "Jatriqq Women Black Embroidered Net Lehenga Choli Sets",
     "discountPrice": "500.00",
     "originalPrice": "740.00",
-    "id": "2"
+    "id": "2",
+    "color": "pink"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/rvqmw5opbz/yashika-women-pink-printed-viscose-rayon-daily-wear-saree-product-images-rvqmw5opbz-0-202211280014.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/gleam_14062807214610_main?_a=AJFJtWIA",
     "name": "Yashika Women Pink Printed Viscose Rayon Daily Wear Saree",
     "discountPrice": "1500.00",
     "originalPrice": "2599.00",
-    "id": "3"
+    "id": "3",
+    "color": "blue"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/rvz0zjrlev/mialo-fashion-women-brown-printed-cotton-rayon-blend-maternity-dress-product-images-rvz0zjrlev-0-202205300855.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/lilypad_101034974_main?_a=AJFJtWIA",
     "name": "Mialo fashion Women Brown Printed Cotton Rayon Blend Maternity Dress",
     "discountPrice": "3100.00",
     "originalPrice": "3445.00",
-    "id": "4"
+    "id": "4",
+    "color": "green"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/441117019_peach/round-neck-button-down-top-model-441117019_peach-0-202102101239.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/mango_13071706260615_main?_a=AJFJtWIA",
     "name": "The Fab Factory Women Grey Floral Crepe Single Kurta Set",
     "discountPrice": "1000.00",
     "originalPrice": "1555.00",
-    "id": "5"
+    "id": "5",
+    "color": "yellow"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/441036754_coral/top-with-band-collar-model-441036754_coral-0-202010301904.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_413/v1/ProductImages/650/black5_13101507013630_main?_a=AJFJtWIA",
     "name": "Top with Band Collar",
     "discountPrice": "225.00",
     "originalPrice": "435.00",
-    "id": "6"
+    "id": "6",
+    "color": "black"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441142543_offwhite/printed-palazzos-with-semi-elasticated-waist-model-441142543_offwhite-0-202207281810.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/600/darksapphire_13071706260615_main?_a=AJFJtWIA",
     "name": "Printed Palazzos with Semi-Elasticated Waist",
     "discountPrice": "2225.00",
     "originalPrice": "3453.00",
-    "id": "7"
+    "id": "7",
+    "color": "blue"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/441117019_peach/round-neck-button-down-top-model-441117019_peach-0-202102101239.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/evergreen_13101507013630_main?_a=AJFJtWIA",
     "name": "Round-Neck Button-Down Top",
     "discountPrice": "12000.00",
     "originalPrice": "16440.00",
-    "id": "8"
+    "id": "8",
+    "color": "green"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/441145723_blue/printed-round-neck-fit-flare-dress-model-441145723_blue-0-202211071838.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/anthracite_101002857_main?_a=AJFJtWIA",
     "name": "Printed Round-Neck Fit & Flare Dress",
-    "discountPrice": "3000.00",
-    "originalPrice": "4479.00",
-    "id": "9"
+    "discountPrice": "300.00",
+    "originalPrice": "479.00",
+    "id": "9",
+    "color": "black"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/rv9iqrzfpy/popwings-casual-polyester-crape-solid-floral-printed-mustard-women-top-regular-relaxed-round-neck-half-sleeve-floral-prints-mustard-top-for-girls-product-images-rv9iqrzfpy-0-202211071612.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/black_101223292_main?_a=AJFJtWIA",
     "name": "Popwings Casual Polyester Crape Solid Floral Printed Mustard Women Top !",
-    "discountPrice": "100.00",
-    "originalPrice": "149.00",
-    "id": "10"
+    "discountPrice": "1040.00",
+    "originalPrice": "14659.00",
+    "id": "10",
+    "color": "black"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/441136799_peach/block-print-a-line-maxi-dress-model-441136799_peach-0-202205170952.jpg",
-    "name": "Block Print A-line Maxi Dress",
-    "discountPrice": ".00",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/aviatornavy_101056637_main?_a=AJFJtWIA",
+    "discountPrice": "344.00",
     "originalPrice": "99.00",
-    "id": "11"
+    "id": "11",
+    "color": "blue"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441140936_black/floral-print-a-line-dress-with-mock-jacket-model-441140936_black-0-202207061959.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/cream_101229515_main?_a=AJFJtWIA",
     "name": "Popwings Single Button Closure Women Black Shrug",
-    "discountPrice": "225.00",
-    "originalPrice": "210.00",
-    "id": "1"
+    "discountPrice": "456.00",
+    "originalPrice": "765.00",
+    "id": "1",
+    "color": "white"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/rvkmdovj7u/jatriqq-women-black-embroidered-net-lehenga-choli-sets-product-images-rvkmdovj7u-0-202207090102.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/shadyblue_101198154_main?_a=AJFJtWIA",
     "name": "Jatriqq Women Black Embroidered Net Lehenga Choli Sets",
-    "originalPrice": "740.00",
-    "discountPrice": "225.00",
-    "id": "2"
+    "originalPrice": "2434.00",
+    "discountPrice": "456.00",
+    "id": "2",
+    "color": "blue"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441145734_indigo/bandhani-print-v-neck-a-line-dress-model-441145734_indigo-0-202208191317.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/lemonmeringue2_101062422_main?_a=AJFJtWIA",
     "name": "Yashika Women Pink Printed Viscose Rayon Daily Wear Saree",
-    "originalPrice": "2599.00",
-    "discountPrice": "225.00",
-    "id": "3"
+    "originalPrice": "3254.00",
+    "discountPrice": "435.00",
+    "id": "3",
+    "color": "yellow"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441146024_maroon/printed-a-line-kurta-with-waist-tie-up-model-441146024_maroon-0-202210080451.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/tnfblack_100980321_main?_a=AJFJtWIA",
     "name": "Mialo fashion Women Brown Printed Cotton Rayon Blend Maternity Dress",
-    "originalPrice": "3445.00",
-    "discountPrice": "225.00",
-    "id": "4"
+    "originalPrice": "234.00",
+    "discountPrice": "5677.00",
+    "id": "4",
+    "color": "black"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441119933_redorange/striped-hooded-top-model-441119933_redorange-0-202109100926.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/purpletintcirrusgrey_101324799_main?_a=AJFJtWIA",
     "name": "The Fab Factory Women Grey Floral Crepe Single Kurta Set",
-    "originalPrice": "1555.00",
-    "discountPrice": "225.00",
-    "id": "5"
+    "originalPrice": "2345.00",
+    "discountPrice": "56768.00",
+    "id": "5",
+    "color": "white"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441124784_brown/foil-print-flared-dress-model-441124784_brown-0-202207281604.jpg",
-    "name": "Top with Band Collar",
-    "originalPrice": "435.00",
-    "discountPrice": "225.00",
-    "id": "6"
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/black_101280574_main?_a=AJFJtWIA",
+    "originalPrice": "345.00",
+    "discountPrice": "567.00",
+    "id": "6",
+    "color": "black"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441119185_mustard/printed-sleeveless-tunic-model-441119185_mustard-0-202103251211.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/navyusa_100320417_main?_a=AJFJtWIA",
     "name": "Printed Palazzos with Semi-Elasticated Waist",
     "originalPrice": "3453.00",
-    "discountPrice": "225.00",
-    "id": "7"
+    "discountPrice": "324545.00",
+    "id": "7",
+    "color": "blue"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441118068_navy/printed-tunic-with-dipper-hem-mask-model-441118068_navy-0-202103251055.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/gardeniawhiteheather_101289000_main?_a=AJFJtWIA",
     "name": "Round-Neck Button-Down Top",
-    "originalPrice": "16440.00",
-    "discountPrice": "225.00",
-    "id": "8"
+    "originalPrice": "345.00",
+    "discountPrice": "456.00",
+    "id": "8",
+    "color": "white"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441145909_navy/floral-print-fit-flare-dress-model-441145909_navy-0-202209100253.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/stonegreen_10208277_main?_a=AJFJtWIA",
     "name": "Printed Round-Neck Fit & Flare Dress",
-    "originalPrice": "4479.00",
-    "discountPrice": "225.00",
-    "id": "9"
+    "originalPrice": "345.00",
+    "discountPrice": "5673.00",
+    "id": "9",
+    "color": "green"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441118419_peach/floral-block-print-a-line-dress-model-441118419_peach-0-202105141540.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/blackberry_100081075_main?_a=AJFJtWIA",
     "name": "Popwings Casual Polyester Crape Solid Floral Printed Mustard Women Top ! ",
-    "originalPrice": "14459.00",
+    "originalPrice": "453.00",
     "discountPrice": "225.00",
-    "id": "10"
+    "id": "10",
+    "color": "pink"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441136542_offwhite/ikat-print-fit-flare-dress-model-441136542_offwhite-0-202203221433.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/shadedspruce_100349705_main?_a=AJFJtWIA",
     "name": "Block Print A-line Maxi Dress",
     "originalPrice": "992.00",
     "discountPrice": "225.00",
-    "id": "11"
+    "id": "11",
+    "color": "blue"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441118068_navy/printed-tunic-with-dipper-hem-mask-model-441118068_navy-0-202103251055.jpg",
-    "name": "Round-Neck Button-Down Top",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/bluesurf_100081507_main?_a=AJFJtWIA",
+    "name": "Printed Round-Neck Fit & Flare Dress",
     "originalPrice": "16440.00",
     "discountPrice": "225.00",
-    "id": "8"
+    "id": "8",
+    "color": "blue"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441145909_navy/floral-print-fit-flare-dress-model-441145909_navy-0-202209100253.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/mulberryheather_100320417_main?_a=AJFJtWIA",
     "name": "Printed Round-Neck Fit & Flare Dress",
     "originalPrice": "4479.00",
     "discountPrice": "225.00",
-    "id": "9"
+    "id": "9",
+    "color": "red"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441118419_peach/floral-block-print-a-line-dress-model-441118419_peach-0-202105141540.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/blackiris2_101062422_main?_a=AJFJtWIA",
     "name": "Popwings Casual Polyester Crape Solid Floral Printed Mustard Women Top ! ",
     "originalPrice": "14459.00",
     "discountPrice": "225.00",
-    "id": "10"
+    "id": "10",
+    "color": "blue"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441136542_offwhite/ikat-print-fit-flare-dress-model-441136542_offwhite-0-202203221433.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/tnfblackskylightblue_101056637_main?_a=AJFJtWIA",
     "name": "Block Print A-line Maxi Dress",
     "originalPrice": "992.00",
     "discountPrice": "225.00",
-    "id": "11"
+    "id": "11",
+    "color": "blue"
   },
   {
-    "image": "https://www.jiomart.com/images/product/330x410/441142543_offwhite/printed-palazzos-with-semi-elasticated-waist-model-441142543_offwhite-0-202207281810.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/deepteal_101187289_main?_a=AJFJtWIA",
     "name": "Printed Palazzos with Semi-Elasticated Waist",
     "originalPrice": "3453.00",
     "discountPrice": "225.00",
-    "id": "7"
+    "id": "7",
+    "color": "green"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/441117019_peach/round-neck-button-down-top-model-441117019_peach-0-202102101239.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/seapineshatteredcamo_101173817_main?_a=AJFJtWIA",
     "name": "Round-Neck Button-Down Top",
     "originalPrice": "16440.00",
     "discountPrice": "225.00",
-    "id": "8"
+    "id": "8",
+    "color": "green"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/441145723_blue/printed-round-neck-fit-flare-dress-model-441145723_blue-0-202211071838.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/600/auramarionberry_13071706260615_main?_a=AJFJtWIA",
     "name": "Printed Round-Neck Fit & Flare Dress",
     "originalPrice": "4479.00",
     "discountPrice": "225.00",
-    "id": "9"
+    "id": "9",
+    "color": "pink"
   },
   {
-    "image": "https://www.jiomart.com/images/product/600x750/rv9iqrzfpy/popwings-casual-polyester-crape-solid-floral-printed-mustard-women-top-regular-relaxed-round-neck-half-sleeve-floral-prints-mustard-top-for-girls-product-images-rv9iqrzfpy-0-202211071612.jpg",
+    "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/gleam_14062807214610_main?_a=AJFJtWIA",
     "name": "Popwings Casual Polyester Crape Solid Floral Printed Mustard Women Top ! ",
     "originalPrice": "149.00",
     "discountPrice": "225.00",
-    "id": "10"
+    "id": "10",
+    "color": "green"
   }
 ]
