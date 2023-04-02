@@ -84,10 +84,6 @@ header > div:nth-child(1) > div:nth-child(1) a {
   border: 1px solid rgb(233, 226, 226);
 }
 
-#nav1 > div {
-  /* margin: 0% 4%; */
-
-}
 
 #nav1 > div:nth-child(1) {
   width: 15%;

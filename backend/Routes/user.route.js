@@ -30,7 +30,9 @@ userRouter.post("/register", async (req, res) => {
       }
     });
   } catch (error) {
-    res.status(400).send({ message: "Registration Failed", error: error.message });
+    res
+      .status(400)
+      .send({ message: "Registration Failed", error: error.message });
   }
 });
 
@@ -47,7 +49,7 @@ userRouter.post("/login", async (req, res) => {
           res.status(200).send({
             message: "Login successful",
             token: jwt.sign({ userID: user._id }, "hello"),
-            name: user.name
+            name: user.name,
           });
         } else {
           res.status(400).send({ message: "Wrong Password" });
