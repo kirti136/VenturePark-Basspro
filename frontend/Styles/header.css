@@ -85,11 +85,13 @@ header > div:nth-child(1) > div:nth-child(1) a {
 }
 
 #nav1 > div {
-  margin: 0% 5%;
+  /* margin: 0% 4%; */
+
 }
 
 #nav1 > div:nth-child(1) {
   width: 15%;
+  margin-left: 3%;
 }
 
 #nav1 > div:nth-child(1) img {
@@ -97,17 +99,28 @@ header > div:nth-child(1) > div:nth-child(1) a {
 }
 
 #nav1 > div:nth-child(2) {
-  width: 45%;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin-left: 6%;
+}
+
+#nav1 > div:nth-child(2)>div:nth-child(1){
+  width: 70%;
+}
+
+#nav1 > div:nth-child(2)>div:nth-child(2){
+  width: 20%;
 }
 
 #searchBox > input {
   border-radius: 0px 10px 0px 10px;
-  padding-left: 15px;
+  /* padding-left: 15px; */
+  width: 92%;
   height: 40px;
   border: none;
-  width: 94%;
   outline: none;
-  color: #222121;
+  color: #212221;
   background-color: #e5e5e5;
 }
 
@@ -117,7 +130,7 @@ header > div:nth-child(1) > div:nth-child(1) a {
   height: 40px;
   font-size: large;
   border: none;
-  width: 5%;
+  width: 7%;
   background-color: #e5e5e5;
 }
 
@@ -126,6 +139,7 @@ header > div:nth-child(1) > div:nth-child(1) a {
   grid-template-columns: repeat(2, 1fr);
   text-align: right;
   width: 6%;
+  margin-right: 7%;
 }
 
 #nav1 > div:nth-child(3) a {
@@ -137,6 +151,7 @@ header > div:nth-child(1) > div:nth-child(1) a {
 #nav1 > div:nth-child(3) > div:nth-child(1) {
   border: 2px solid black;
   text-align: center;
+  width: 90%;
   border-radius: 30%;
   padding: 5%;
 }

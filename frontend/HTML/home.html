@@ -55,11 +55,17 @@
             </div>
             <!-- 2 Search -->
             <div>
-                <form id="searchBox">
-                    <input type="text" placeholder="Find a mate for your new adventure..">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+                <div>
+                    <form id="searchBox">
+                        <input type="text" placeholder="Find a mate for your new adventure..">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div>
+                    <p id="username"></p>
+                </div>
             </div>
+
             <!-- 3 Profile and Cart -->
             <div>
                 <div>
@@ -1026,6 +1032,14 @@
 <script src="https://kit.fontawesome.com/8609a682e1.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
+<!-- username -->
+<script>
+    const user = document.getElementById("username")
+    const name = sessionStorage.getItem("name") || "Login First"
+    user.innerText = "Hello,"+"\n"+ name
+</script>
+
+<!-- swipe -->
 <script>
     const swiper = new Swiper('.swiper', {
         slidesPerView: 1,

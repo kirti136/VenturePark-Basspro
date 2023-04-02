@@ -689,8 +689,9 @@
                 if (res.message == "Login successful") {
                     alert(res.message)
                     sessionStorage.setItem("token", res.token);
+                    sessionStorage.setItem("name", res.name)
                     window.location.href = "../HTML/home.html"
-                }else{
+                } else {
                     alert(res.message)
                 }
             })
