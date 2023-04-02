@@ -4,7 +4,7 @@ let totalProducts = document.getElementById("totalProducts");
 let sortByPrice = document.getElementById("sortByPrice")
 let womensData = []
 
-fetch("../Scripts/womens.json")
+fetch("./Scripts/womens.json")
   .then((res) => {
     return res.json();
   })
