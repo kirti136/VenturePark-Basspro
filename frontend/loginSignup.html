@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8609a682e1.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../Styles/header.css">
-    <link rel="stylesheet" href="../Styles/footer.css">
-    <title>Fishing Page</title>
+    <link rel="stylesheet" href="./Styles/header.css">
+    <link rel="stylesheet" href="./Styles//loginSignup.css">
 
+    <title>Login and Signup</title>
     <style>
+
 
     </style>
 </head>
 
 <body>
+
     <!-- Main Navbar -->
     <div id="mainNavbar">
         <!-- Header -->
@@ -52,7 +55,7 @@
         <div id="nav1">
             <!-- 1 Logo -->
             <div>
-                <a href="../HTML/home.html"><img src="../Images/logo.png" alt=""></a>
+                <a href="./home.html"><img src="./Images/logo.png" alt=""></a>
             </div>
             <!-- 2 Search -->
             <div>
@@ -70,12 +73,12 @@
             <!-- 3 Profile and Cart -->
             <div>
                 <div>
-                    <a href="../HTML/loginSignup.html">
+                    <a href="./loginSignup.html">
                         <i class="fa-solid fa-user"></i>
                     </a>
                 </div>
                 <div>
-                    <a href="../HTML/cart.html">
+                    <a href="./cart.html">
                         <i class="fa-solid fa-cart-shopping"></i>
                     </a><span id="cartTotal">0</span>
                 </div>
@@ -93,7 +96,7 @@
                             <div class="list-item">
                                 <h4 class="title">FISHING REELS</h4>
                                 <ul>
-                                    <li><a href="../HTML/fishingPage.html">Baitcast Reels</a></li>
+                                    <li><a href="./fishingPage.html">Baitcast Reels</a></li>
                                     <li><a href="#">Spinning Reels</a></li>
                                     <li><a href="#">Saltwater Reels</a></li>
                                     <li><a href="#">Fly Reels</a></li>
@@ -460,7 +463,7 @@
                             <div class="list-item">
                                 <h4 class="title">WOMEN'S CLOTHING</h4>
                                 <ul>
-                                    <li><a href="../HTML/womens.html">Westren Wear</a></li>
+                                    <li><a href="./womens.html">Western Wear</a></li>
                                     <li><a href="#">Indian Wear</a></li>
                                     <li><a href="#">Jackets</a></li>
                                     <li><a href="#">Sarees</a></li>
@@ -660,9 +663,134 @@
         </div>
     </div>
 
+    <!-- Login SignUp -->
+    <div class="parent">
+        <div class="form-box">
+            <!-- Toggle Buttons -->
+            <div class="button-box">
+                <div id="btn1"></div>
+                <button type="button" class="toggle-btn" onclick="toggleLogin()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="toggleRegister()">Sign Up </button>
+            </div>
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <!-- Login Form -->
+            <form id="login" class="input-group">
+                <input type="email" class="input-field" placeholder="Enter Email" id="email" required>
+                <input type="password" class="input-field" placeholder="Enter Password" id="password" required>
+                <input type="submit" class="submit-btn" style="text-decoration: none;" value="Log In">
+                <p>Don't have an account? <a href="./loginSignup.html">Sign up</a></p>
+            </form>
+            <!-- Register Form -->
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Enter your Name" id="name" required>
+                <input type="email" class="input-field" placeholder="Enter your Email" id="email" required>
+                <input type="password" class="input-field" placeholder="Enter Password" id="password" required>
+                <input type="submit" class="submit-btn" style="text-decoration: none;" value="Sign Up">
+                <p>Have an account? <a href="./loginSignup.html">Log In</a></p>
+            </form>
+        </div>
+        <div>
+            <img src="https://assets.basspro.com/image/upload/c_scale,f_auto,q_auto,w_479/v1679582428/DigitalCreative/2023/Campaigns/Wk13-3-30/Homepage/BPS/hero-logo.png"
+                alt="">
+        </div>
+    </div>
+
+    <!-- Footer line -->
+    <footer>CLUB members can now manage their account by signing in through Venture Park Shops above.
+        <a href="#">Learn More</a>
+    </footer>
 </body>
 
 </html>
-<script src="../Scripts/index.js"></script>
-<script src="../Scripts/cart.js"></script>
-<script src="https://kit.fontawesome.com/8609a682e1.js" crossorigin="anonymous"></script>
+
+<script src="./Scripts/index.js"></script>
+<script src="./Scripts/cart.js"></script>
+
+<script>
+    const baseURL = "http://localhost:5050"
+
+    var loginForm = document.getElementById("login");
+    var registerForm = document.getElementById("register");
+    var slideBtn = document.getElementById("btn1");
+    var inputfield = document.getElementsByClassName("input-field");
+
+
+    function toggleRegister() {
+        loginForm.style.left = "-400px";
+        registerForm.style.left = "50px";
+        slideBtn.style.left = "110px";
+    }
+    function toggleLogin() {
+        loginForm.style.left = "50px";
+        registerForm.style.left = "450px";
+        slideBtn.style.left = "0px";
+    }
+
+    // Login 
+    loginForm.addEventListener("submit", () => {
+        event.preventDefault()
+
+        const email = loginForm.email.value;
+        const password = loginForm.password.value;
+
+        const user = { email, password }
+
+        fetch(`${baseURL}/users/login`, {
+            method: "POST",
+            body: JSON.stringify(user),
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(user)
+        })
+            .then((res) => res.json())
+            .then((res) => {
+                if (res.message == "Login successful") {
+                    alert(res.message)
+                    sessionStorage.setItem("token", res.token);
+                    sessionStorage.setItem("name", res.name)
+                    window.location.href = "./home.html"
+                } else {
+                    alert(res.message)
+                }
+            })
+        loginForm.reset();
+    })
+
+
+    // Registration
+    registerForm.addEventListener("submit", () => {
+        event.preventDefault()
+
+        const name = registerForm.name.value;
+        const email = registerForm.email.value;
+        const password = registerForm.password.value;
+
+        const user = { name, email, password }
+
+        // console.log(user)
+        fetch(`${baseURL}/users/register`, {
+            method: "POST",
+            body: JSON.stringify(user),
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(user)
+        })
+            .then((res) => res.json())
+            .then((res) => {
+                alert(res.message);
+                window.location.href = "./loginSignup.html"
+            })
+            .catch((error) => console.log(error));
+
+        registerForm.reset();
+    })
+
+
+</script>
