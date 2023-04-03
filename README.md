@@ -1,5 +1,5 @@
 # aromatic-caption-2256
-#Welcome To Venture Part
+# *******************************Welcome To Venture Park********************************
 
 Venture Park Shops is your trusted source for quality fishing, hunting, boating and outdoor sporting goods. Inspiring people to enjoy & protect the great adventure of their Life.
 
