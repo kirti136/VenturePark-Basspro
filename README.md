@@ -1,6 +1,6 @@
 # Welcome To Venture Park
 
-Venture Park Shops is your trusted source for quality fishing, hunting, boating and outdoor sporting goods. Inspiring people to enjoy & protect the great adventure of their Life.
+Its an e-commerce website to help you with your adventure. I have cloned basspro.com website and named it ad Venture Park. Venture Park Shops is your trusted source for quality fishing, hunting, boating and outdoor sporting goods. Inspiring people to enjoy & protect the great adventure of their Life. Have a prosperous and adventureous journey ahead.
 
 # Tech Stack
   1) Frontend: HTML, CSS, Javascript
