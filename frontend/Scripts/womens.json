@@ -21,7 +21,7 @@
     "discountPrice": "1500.00",
     "originalPrice": "2599.00",
     "id": "3",
-    "color": "blue"
+    "color": "green"
   },
   {
     "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/lilypad_101034974_main?_a=AJFJtWIA",
@@ -81,6 +81,7 @@
   },
   {
     "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/aviatornavy_101056637_main?_a=AJFJtWIA",
+    "name": "Popwings Single Button Closure Women Black Shrug",
     "discountPrice": "344.00",
     "originalPrice": "99.00",
     "id": "11",
@@ -128,6 +129,7 @@
   },
   {
     "image": "https://res.cloudinary.com/bass-pro/image/upload/f_auto/q_auto/c_scale,w_334/v1/ProductImages/650/black_101280574_main?_a=AJFJtWIA",
+    "name": "Popwings Single Button Closure Women Black Shrug",
     "originalPrice": "345.00",
     "discountPrice": "567.00",
     "id": "6",

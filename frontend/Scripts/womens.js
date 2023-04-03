@@ -1,6 +1,7 @@
 let cont2Products = document.getElementById("cont2-products");
 let totalProducts = document.getElementById("totalProducts");
 let sortByPrice = document.getElementById("sortByPrice");
+let color = document.getElementById("color");
 
 fetch("./Scripts/womens.json")
   .then((res) => {
@@ -53,6 +54,44 @@ fetch("./Scripts/womens.json")
           (a, b) => a.discountPrice - b.discountPrice
         );
         showData(sortedData);
+      }
+    });
+
+    // SORT BY COLOR
+    color.addEventListener("change", (event) => {
+      const selectedColor = event.target.value;
+      if (selectedColor === "black") {
+        let sortedColorData = actualData.filter((element, index) => {
+          return element.color === selectedColor;
+        });
+        showData(sortedColorData);
+      } else if (selectedColor === "white") {
+        let sortedColorData = actualData.filter((element, index) => {
+          return element.color === selectedColor;
+        });
+        showData(sortedColorData);
+      } else if (selectedColor === "blue") {
+        let sortedColorData = actualData.filter((element, index) => {
+          return element.color === selectedColor;
+        });
+        showData(sortedColorData);
+      } else if (selectedColor === "green") {
+        let sortedColorData = actualData.filter((element, index) => {
+          return element.color === selectedColor;
+        });
+        showData(sortedColorData);
+      } else if (selectedColor === "yellow") {
+        let sortedColorData = actualData.filter((element, index) => {
+          return element.color === selectedColor;
+        });
+        showData(sortedColorData);
+      } else if (selectedColor === "pink") {
+        let sortedColorData = actualData.filter((element, index) => {
+          return element.color === selectedColor;
+        });
+        showData(sortedColorData);
+      } else {
+        showData(actualData);
       }
     });
   })
