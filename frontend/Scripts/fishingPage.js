@@ -1,24 +1,51 @@
 let cont2Products = document.getElementById("cont2-products");
 let totalProducts = document.getElementById("totalProducts");
 
-let sortByPrice = document.getElementById("sortByPrice")
-let womensData = []
-
 fetch("./Scripts/fishingPage.json")
   .then((res) => {
     return res.json();
   })
   .then((actualData) => {
     // console.log(actualData);
-    womensData = actualData
     showData(actualData);
     totalProducts.innerText = actualData.length;
+    JSON.stringify(localStorage.setItem("fishingData", actualData));
+
+    // Pagination
+    let itemsPerPage = 10;
+    let currentPage = 1;
+    const paginationLinks = document.querySelectorAll(".pagination a");
+    paginationLinks.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        currentPage = parseInt(event.target.textContent);
+        updatePagination();
+        showData(getCurrentPageData());
+      });
+    });
+
+    function updatePagination() {
+      paginationLinks.forEach((link) => {
+        link.classList.remove("active");
+      });
+      document
+        .querySelector(`.pagination a:nth-child(${currentPage})`)
+        .classList.add("active");
+    }
+
+    function getCurrentPageData() {
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      return actualData.slice(startIndex, endIndex);
+    }
   })
   .catch((err) => {
     console.log(err);
   });
 
 function showData(data) {
+  cont2Products.innerHTML = ""
+
   data.forEach((element, index) => {
     let card = document.createElement("div");
 
@@ -59,7 +86,7 @@ function showData(data) {
       } else {
         cartData.push(element);
         localStorage.setItem("cart-data", JSON.stringify(cartData));
-        alert("Prodct successfully added to Cart.");
+        alert("Product successfully added to Cart.");
       }
     });
     imgdiv.append(image);
@@ -67,7 +94,6 @@ function showData(data) {
     cont2Products.append(card);
   });
 }
-
 
 // sortByPrice.addEventListener("change",()=>{
 //   if(sortByPrice.value === "highToLow" ){
