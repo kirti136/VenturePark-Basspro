@@ -777,5 +777,11 @@
 </html>
 <script src="./Scripts/index.js"></script>
 <script src="https://kit.fontawesome.com/8609a682e1.js" crossorigin="anonymous"></script>
-<script src="./Scripts/cart.js"></script>
 <script src="./Scripts/womens.js"></script>
+
+<script>
+    let cartData = JSON.parse(localStorage.getItem("cart-data"));
+
+    const cartTotal = document.getElementById("cartTotal");
+    cartTotal.innerText = cartData.length;
+</script>

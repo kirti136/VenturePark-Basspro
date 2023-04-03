@@ -69,14 +69,16 @@ function showData(data) {
 }
 
 
-// sortByPrice.addEventListener("change",()=>{
-//   if(sortByPrice.value === "highToLow" ){
-//       womensData = womensData.sort((a,b)=> b.originalPrice - a.originalPrice)
-//       showData(womensData);
-//   }else if(sortByPrice.value === "lowToHigh"){
-//     womensData = womensData.sort((a,b)=> a.originalPrice - b.originalPrice);
-//     showData(womensData);
-//   }else{
-//     showData(womensData);
-//   }
-// })
+sortByPrice.addEventListener("change",(event)=>{
+  const selectedSort = event.target.value;
+  // console.log(selectedSort);
+  let sortedData = womensData;
+// console.log(sortedData);
+  if(selectedSort === "highToLow" ){
+    sortedData = womensData.sort((a,b)=> b.discountPrice - a.discountPrice)
+    showData(sortedData);
+  }else if(selectedSort === "lowToHigh"){
+    womensData = womensData.sort((a,b)=> a.discountPrice - b.discountPrice);
+    showData(sortedData);
+  }
+})

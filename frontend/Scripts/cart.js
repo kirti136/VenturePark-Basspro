@@ -7,9 +7,11 @@ cartTotal.innerText = cartData.length;
 if (cartData === null) {
   cartData = [];
 }
+
 showData(cartData);
 
 function showData(data) {
+  let cartProducts = document.getElementById("cart-container");
   data.forEach((element, index) => {
     let card = document.createElement("div");
 
@@ -112,8 +114,8 @@ sum();
 
 let alertsum = localStorage.getItem("totalsum");
 
-let checkoutbtn = document.getElementById("Checkout");
-checkoutbtn.addEventListener("click", () => {
-  console.log(x);
-  localStorage.setItem("totalsum", x);
-});
+// let checkoutbtn = document.getElementById("Checkout");
+// checkoutbtn.addEventListener("click", () => {
+//   console.log(x);
+//   localStorage.setItem("totalsum", x);
+// });

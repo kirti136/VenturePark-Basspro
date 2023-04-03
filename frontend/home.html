@@ -1032,7 +1032,6 @@
 <script src="https://kit.fontawesome.com/8609a682e1.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="./Scripts/index.js"></script>
-<script src="./Scripts/cart.js"></script>
 <!-- swipe -->
 <script>
     const swiper = new Swiper('.swiper', {
@@ -1050,4 +1049,12 @@
         },
 
     });
+</script>
+
+
+<script>
+    let cartData = JSON.parse(localStorage.getItem("cart-data"));
+
+    const cartTotal = document.getElementById("cartTotal");
+    cartTotal.innerText = cartData.length;
 </script>
