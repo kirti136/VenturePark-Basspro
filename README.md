@@ -2,7 +2,14 @@
 
 Venture Park Shops is your trusted source for quality fishing, hunting, boating and outdoor sporting goods. Inspiring people to enjoy & protect the great adventure of their Life.
 
+# Tech Stack
+  1) Frontend: HTML, CSS, Javascript
+  2) Backend: Express, MongoDB
+
 # Login-Page
+
+For creating this page I have used MongoDB for data storage. If you are a new User then you have to register first through the registraition page. 
+
 ![Login Page](https://user-images.githubusercontent.com/75576920/229418607-f41850bc-8843-415d-beb0-db0f276bc025.PNG)
 
 # SignUp-Page
