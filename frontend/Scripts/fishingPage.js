@@ -11,6 +11,22 @@ fetch("./Scripts/fishingPage.json")
     totalProducts.innerText = actualData.length;
     JSON.stringify(localStorage.setItem("fishingData", actualData));
 
+    // SORT BY PRICE
+    sortByPrice.addEventListener("change", (event) => {
+      const selectedSort = event.target.value;
+      if (selectedSort === "highToLow") {
+        let sortedData = actualData.sort(
+          (a, b) => b.discountPrice - a.discountPrice
+        );
+        showData(sortedData);
+      } else if (selectedSort === "lowToHigh") {
+        let sortedData = actualData.sort(
+          (a, b) => a.discountPrice - b.discountPrice
+        );
+        showData(sortedData);
+      }
+    });
+
     // Pagination
     let itemsPerPage = 10;
     let currentPage = 1;
@@ -44,7 +60,7 @@ fetch("./Scripts/fishingPage.json")
   });
 
 function showData(data) {
-  cont2Products.innerHTML = ""
+  cont2Products.innerHTML = "";
 
   data.forEach((element, index) => {
     let card = document.createElement("div");

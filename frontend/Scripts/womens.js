@@ -1,5 +1,6 @@
 let cont2Products = document.getElementById("cont2-products");
 let totalProducts = document.getElementById("totalProducts");
+let sortByPrice = document.getElementById("sortByPrice");
 
 fetch("./Scripts/womens.json")
   .then((res) => {
@@ -38,13 +39,29 @@ fetch("./Scripts/womens.json")
       const endIndex = startIndex + itemsPerPage;
       return actualData.slice(startIndex, endIndex);
     }
+
+    // SORT BY PRICE
+    sortByPrice.addEventListener("change", (event) => {
+      const selectedSort = event.target.value;
+      if (selectedSort === "highToLow") {
+        let sortedData = actualData.sort(
+          (a, b) => b.discountPrice - a.discountPrice
+        );
+        showData(sortedData);
+      } else if (selectedSort === "lowToHigh") {
+        let sortedData = actualData.sort(
+          (a, b) => a.discountPrice - b.discountPrice
+        );
+        showData(sortedData);
+      }
+    });
   })
   .catch((err) => {
     console.log(err);
   });
 
 function showData(data) {
-  cont2Products.innerHTML = ""
+  cont2Products.innerHTML = "";
   data.forEach((element, index) => {
     let card = document.createElement("div");
 
@@ -93,21 +110,3 @@ function showData(data) {
     cont2Products.append(card);
   });
 }
-
-// SORT BY PRICE
-
-let sortByPrice = document.getElementById("sortByPrice");
-
-sortByPrice.addEventListener("change", (event) => {
-  const selectedSort = event.target.value;
-  // console.log(selectedSort);
-  let sortedData = womensData;
-  // console.log(sortedData);
-  if (selectedSort === "highToLow") {
-    sortedData = womensData.sort((a, b) => b.discountPrice - a.discountPrice);
-    showData(sortedData);
-  } else if (selectedSort === "lowToHigh") {
-    womensData = womensData.sort((a, b) => a.discountPrice - b.discountPrice);
-    showData(sortedData);
-  }
-});
